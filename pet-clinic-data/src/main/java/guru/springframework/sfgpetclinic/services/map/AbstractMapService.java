@@ -30,6 +30,7 @@ public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> 
       throw new RuntimeException("Object cannot be null");
     }
 
+
     return object;
   }
 
